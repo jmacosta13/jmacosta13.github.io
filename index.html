@@ -1,54 +1,86 @@
-<html>
 
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css"> 
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Jessica M. Acosta Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
 
-<title>Jessica M. Acosta</title>
-<center>
-<h1>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
-        Jessica M. Acosta
-</h1>
-        
-    <div class="column1"><body>
-  
-        <img src="headshot.jpg"
-          width= "800px"
-          height= auto
-          position x= "center"
-          position y= "center"></img>
-      
-          <br><br>
-          <a href="jmacosta13.github.io">GitHub</a>
-          <a href="http://www.linkedin.com/in/jessica-acosta-6316519b">LinkedIn</a>
-      </body></div>
-    
-     <div class="column2">
-        <body>
-            Video<br>
-            Bio
-          
-        
-        <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">WebSiteName</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-          </ul>
-        </div>
-    </nav></div>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">jmacosta13.github.io</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">PacMan Exercise</a></li>
+        <li><a href="#">Eye Excercise</a></li>
+        <li><a href="#">Real Time Bus Tracking</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Jessica M. Acosta</h3>
+  <img src="headshot.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I am a Mom, Wife and Professional.</h3><br>
+  <p>(In that order!)</p>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Biography</h3>
+  <p>I was born and raised in Worcester, MA and am South High Graduate. <br>
+    I received my degree in Biology from Worcester State in 2014 and began my career in Quality Control. <br>
+    After several years working in Quality Control laboratories, <br>
+    my experiences with equipment validation and Computer System Validation <br>
+    led me to a role in Quality Assurance managing Quality Systems and electronic system implementation. <br>
+    <br>
+    Through this course I am hoping to gain a better understanding of software development and control<br>
+     to further grow my career in Computer Software Assurance (CSA).  </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
 
 </body>
-
-
-    
-</center>
 </html>
